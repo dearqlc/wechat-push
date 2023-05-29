@@ -1,2 +1,9 @@
-# Project exclude paths
-/target/
+.idea
+target
+*.iml
+logs
+rebel.xml
+*.xml.bak
+*.log
+*.http
+/docker
