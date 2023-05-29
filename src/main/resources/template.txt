@@ -1,0 +1,7 @@
+今日： {{date.DATA}}
+天气： {{weather.DATA}}
+温度： {{low.DATA}}度 ~ {{high.DATA}}度
+
+今天是我们认识的第{{meet.DATA}}天，恋爱的第{{love.DATA}}天
+
+♡{{words.DATA}}♡
