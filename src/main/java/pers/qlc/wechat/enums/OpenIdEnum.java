@@ -39,7 +39,6 @@ public enum OpenIdEnum {
             if (value.getOpenId().equals(openId)) {
                 return value.getName();
             }
-            return null;
         }
         return null;
     }
