@@ -43,8 +43,8 @@ public class Pusher {
 
         // 4.推送
         try {
-            log.info("向" + OpenIdEnum.getNameById(templateMessage.getToUser()) + "推送成功：" + templateMessage.getData().get(5).getValue());
             wxMpService.getTemplateMsgService().sendTemplateMsg(templateMessage);
+            log.info("向" + OpenIdEnum.getNameById(templateMessage.getToUser()) + "推送成功：" + templateMessage.getData().get(5).getValue());
         } catch (Exception e) {
             log.error("推送失败！");
             e.printStackTrace();

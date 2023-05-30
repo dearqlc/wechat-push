@@ -7,3 +7,4 @@ rebel.xml
 *.log
 *.http
 /docker
+out
