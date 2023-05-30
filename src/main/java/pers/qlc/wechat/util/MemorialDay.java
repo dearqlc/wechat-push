@@ -14,8 +14,7 @@ public class MemorialDay {
      * @return
      */
     public static int getMeet() {
-        long day = ChronoUnit.DAYS.between(LocalDate.of(2000, 7, 17), LocalDate.now());
-        return (int) (day + 1);
+        return (int) (ChronoUnit.DAYS.between(LocalDate.of(2000, 7, 17), LocalDate.now()) + 1);
     }
 
     /**
@@ -24,8 +23,7 @@ public class MemorialDay {
      * @return
      */
     public static int getLianAi() {
-        long day = ChronoUnit.DAYS.between(LocalDate.of(2000, 7, 17), LocalDate.now());
-        return (int) (day + 1);
+        return (int) (ChronoUnit.DAYS.between(LocalDate.of(2000, 7, 17), LocalDate.now()) + 1);
     }
 
     public static void main(String[] args) {
