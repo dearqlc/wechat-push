@@ -17,7 +17,7 @@ public class TianApi {
     public static JSONObject getWeather() {
         JSONObject today = new JSONObject();
         try {
-            JSONObject jsonObject = JSONObject.parseObject(Objects.requireNonNull(HttpUtil.getUrl(GeneralConstant.TIANQI_URL + "?key=" + GeneralConstant.KEY + "&city=" + GeneralConstant.HangZhou + "&type=1")));
+            JSONObject jsonObject = JSONObject.parseObject(Objects.requireNonNull(HttpUtil.getUrl(GeneralConstant.TIANQI_URL + "?key=" + GeneralConstant.KEY + "&city=" + GeneralConstant.HANG_ZHOU + "&type=1")));
 
             if (jsonObject.getIntValue("code") == GeneralConstant.STATUS_200) {
                 today = jsonObject.getJSONArray("newslist").getJSONObject(0);

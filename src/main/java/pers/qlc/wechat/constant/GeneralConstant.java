@@ -35,7 +35,7 @@ public class GeneralConstant {
     /**
      * 城市-杭州
      */
-    public static final String HangZhou = "101210101";
+    public static final String HANG_ZHOU = "101210101";
 
     /**
      * 天气请求地址
